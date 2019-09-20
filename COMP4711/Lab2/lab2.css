@@ -1,0 +1,43 @@
+#ArtistDir{
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 40%;
+	border:1px solid grey;
+	border-radius: 10px;
+}
+
+#searchBar{
+	 width: 100%;
+}
+
+#ArtistInfo{
+	margin: 0 auto;
+	width: 30%;
+	border:1px solid grey;
+	height: 90px;
+	padding-top: 10px;
+}
+
+#ArtistInfo:hover{
+	background-color: grey;
+	opacity: 0.5;
+}
+
+img{
+   padding-bottom: 10px; 
+   padding-left: 10px; 
+   padding-right: 10px; 
+   float: left;
+}
+
+a{
+	font-size: 25px;
+	font-family: "Arial";
+}
+
+p{
+    font-size: 15px;
+	font-family: "Courier New";
+}
