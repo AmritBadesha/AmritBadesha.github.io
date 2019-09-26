@@ -33,11 +33,14 @@ img{
 }
 
 #ArtistName{
+	margin-top: 0;
+	margin-bottom: 0;
 	font-size: 25px;
 	font-family: "Arial";
 }
 
 #ArtistSchool{
+	margin-top: 0;
     font-size: 15px;
 	font-family: "Courier New";
 }
