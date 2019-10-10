@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="script.js" defer></script>
+	</head>
+	
+	<body>
+		<div id="ArtistDir">
+			<h1>Artist Directory</h1>
+			<input id="searchBar" type="search">
+			<button type="button" id="ArtistAdd" onclick="showForm()">Add Artist</button>
+		</div>
+		<form id="InfoInputForm">
+		<input type="text" id="InfoInputText" name="artistName" placeholder="Artist Name" maxlength="40">
+        <input type="text" id="InfoInputText" name="aboutArist" placeholder="About Artist" maxlength="40">
+		<input type="text" id="InfoInputText" name="imgURL" placeholder="Image URL">
+		<button type="button" id="addBtn" onclick="addToDirectory()">Add</button>
+	</form>
+	</body>
+	
+	
+	
+	
+	<div id="ArtistInfo">
+		<img src="https://randomuser.me/api/portraits/med/women/11.jpg" alt="img">
+		<p id="ArtistName">Hordy Jones</p>
+		<p id="ArtistSchool">Fishman Island University</p>
+		<button type="button" id="deleteBtn">Delete</button>
+	</div>
+
+</html>
