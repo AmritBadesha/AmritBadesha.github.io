@@ -28,11 +28,11 @@
 	opacity: 0.5;
 }
 
-img{
-   padding-bottom: 10px; 
-   padding-left: 10px; 
-   padding-right: 10px; 
-   float: left;
+#ArtistAdd{
+    font-size: 11px;
+    background-color:lightgray;
+    border-radius: 4px;
+	float: right;
 }
 
 #ArtistName{
@@ -48,11 +48,11 @@ img{
 	font-family: "Courier New";
 }
 
-#ArtistAdd{
-    font-size: 11px;
-    background-color:lightgray;
-    border-radius: 4px;
-	float: right;
+img{
+   padding-bottom: 10px; 
+   padding-left: 10px; 
+   padding-right: 10px; 
+   float: left;
 }
 
 #deleteBtn{
@@ -73,14 +73,15 @@ img{
 	text-align: center;
 }
 
+#addBtn{
+    width: 60%;
+    font-size: 11px;
+    background-color:lightgray;
+    border-radius: 4px;
+	
 #InfoInputText{
 	color: grey;
     font-size: 15px;
 	width: 80%;
 }
 
-#addBtn{
-    width: 60%;
-    font-size: 11px;
-    background-color:lightgray;
-    border-radius: 4px;
