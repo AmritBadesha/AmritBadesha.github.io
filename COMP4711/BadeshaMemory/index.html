@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body onload=startGame() id="bodyContent">
+    <div class="main">
+        <table id="memoryTable">
+            <div id="score">
+                <label><b>Score: </b></label>
+                <label id="lblScore">0</label>
+                <label><b>Tiles: </b></label>
+                <label id="lblTiles">0</label>
+                <button type="button" onClick="quit()">Terminate Game</button>
+
+            </div>
+
+        </table>
+    </div>
+</body>
+
+</html>

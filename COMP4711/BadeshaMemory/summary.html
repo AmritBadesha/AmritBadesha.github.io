@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body onload="getScore()">
+
+    <h2>Summary</h2>
+    <label><b>Score: </b></label>
+    <label id="lblFinalScore">0</label>
+
+    <form>
+        First name:<br>
+        <input type="text" id="username" name="firstname" value="">
+        <br>
+        <button type="button" onClick="submitForm()">Submit</button>
+    </form>
+    <button type="button" onClick="restartGame()">Restart Game</button>
+
+</body>
+
+</html>

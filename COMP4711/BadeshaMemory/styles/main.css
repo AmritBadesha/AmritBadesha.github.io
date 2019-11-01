@@ -1,0 +1,15 @@
+.square {
+	height: 50px;
+    width: 50px;
+    background-color: Sienna;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+
+  }
+#memoryTable {
+    margin: auto;
+	background:SaddleBrown;
+	border:SaddleBrown 5px solid;
+}
